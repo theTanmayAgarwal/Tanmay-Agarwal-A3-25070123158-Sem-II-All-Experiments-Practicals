@@ -1,146 +1,137 @@
-Tanmay-Agarwal-A3-25070123158-Sem-II-All-Experiments-Practicals
+# 📋 OPERATIONS ON LIST (Python)
+NAME- Tanmay Agarwal
+BRANCH- EnTC A3
+PRN- 25070123158
+## Title Page
 
-# Experiment–1
-## Title: Introduction to Python Programming and Installation of Jupyter Notebook Using Anaconda
-
-### Aim
-To study the basics of the Python programming language, understand the Python execution environment, install Python and Jupyter Notebook using Anaconda distribution, and explore various Python IDEs including Google Colab.
-
-### Objectives
-To understand Python features and applications
-To install Python and Jupyter Notebook using Anaconda
-To explore Python IDEs and environments
-To execute basic Python programs using Jupyter Notebook and Google Colab
-
-### Theory
-1. Introduction to Python
-Python is a high-level, interpreted, and object-oriented programming language widely used for data analysis, machine learning, automation, and scientific computing.
-
-2. What is Anaconda?
-Anaconda is a free, open-source distribution of Python and R designed for data science and machine learning.
-Advantages of Anaconda:
-Comes with Python, Jupyter Notebook, Spyder, and libraries pre-installed
-Easy package and environment management
-Avoids dependency issues
-Suitable for beginners and professionals
-
-
-3. Installation of Anaconda and Jupyter Notebook
-Step-1: Download Anaconda
-Visit the official Anaconda website: https://www.anaconda.com
-Click on Download and select Anaconda Individual Edition.
-Choose the Python 3.x version suitable for your operating system.
-
-
-### Python IDEs:
-IDE
-Description
-IDLE
-Basic Python IDE
-Spyder
-Scientific Python IDE (Anaconda)
-PyCharm
-Professional Python IDE
-VS Code
-Lightweight code editor
-Jupyter Notebook
-Interactive EDA environment
-
-
-### Google Colab: Google Colab is a cloud-based Python environment provided by Google.
-#### Advantages:
-No installation required
-Free GPU/TPU access
-Easy collaboration
-Runs in browser
-
-#### Steps to Use Google Colab:
-Visit https://colab.research.google.com
-Sign in using Google account
-Create a new Python notebook
-
-### Conclusion
-Python provides a flexible and powerful programming environment. Jupyter Notebook and Google Colab simplify learning and exploratory data analysis by providing interactive execution and visualization support.
-
-# Python Programming Lab - Assignment 1
-
-## #Program-1: Simple Calculator
-### *Aim*
-To create a program that performs basic arithmetic operations (addition, subtraction, multiplication, division, and modulus) on two user-provided numbers.
-
-### *Theory*
-In Python, the ⁠ input() ⁠ function is used to capture data from the user as a string. To perform mathematical operations, these strings must be converted into integers using the ⁠ int() ⁠ function. Arithmetic operators used include:
-•⁠  ⁠⁠ + ⁠ (Addition)
-•⁠  ⁠⁠ - ⁠ (Subtraction)
-•⁠  ⁠⁠ * ⁠ (Multiplication)
-•⁠  ⁠⁠ / ⁠ (Division)
-•⁠  ⁠⁠ % ⁠ (Modulus - finds the remainder)
-
-### *Steps*
-1.⁠ ⁠Take two inputs from the user.
-2.⁠ ⁠Typecast the inputs from string to integer.
-3.⁠ ⁠Apply the arithmetic operators.
-4.⁠ ⁠Print the results to the console.
-
-### *Conclusion*
-The program successfully demonstrates how to handle user input and perform basic arithmetic operations in Python.
+**Project Name:** Operations on List in Python
+**Purpose:** Study of List and Its Operations
+**Language:** Python
 
 ---
 
-## #Program-2: Sum and Average of Marks
-### *Aim*
-To calculate the total sum and the average marks of five students.
+## 🎯 Aim of the Study
 
-### *Theory*
-The *Sum* is the total value of all inputs combined. The *Average* (Mean) is calculated by taking the total sum and dividing it by the count of inputs (in this case, 5).
-
-### *Steps*
-1.⁠ ⁠Accept five separate inputs representing marks.
-2.⁠ ⁠Convert all inputs to integers.
-3.⁠ ⁠Sum the five values together.
-4.⁠ ⁠Divide the total sum by 5 to find the average.
-5.⁠ ⁠Display both the total and the average.
-
-### *Conclusion*
-The program effectively calculates statistical data from multiple integer inputs.
+The aim of this project is to study the list data type in Python and understand various operations performed on lists. This helps in learning how to store, access, modify, and manage multiple values efficiently.
 
 ---
 
-## #Program-3: Area of a Circle
-### *Aim*
-To find the area of a circle based on a user-defined radius.
+## 📌 Introduction
 
-### *Theory*
-The area of a circle is calculated using the mathematical formula:
-$$Area = \pi r^2$$
-In this program, we use *3.14* as the constant for $\pi$ and $r$ as the radius provided by the user.
-
-### *Steps*
-1.⁠ ⁠Accept the radius ($r$) as input.
-2.⁠ ⁠Convert the input to an integer.
-3.⁠ ⁠Calculate the area using the formula $3.14 * r * r$.
-4.⁠ ⁠Print the final area.
-
-### *Conclusion*
-The program demonstrates the implementation of geometric formulas using Python variables.
+A list is a built-in data type in Python used to store multiple items in a single variable. Lists are ordered, changeable (mutable), and allow duplicate values. They are one of the most commonly used data structures in Python.
 
 ---
 
-## #Program-4: Area and Perimeter of a Rectangle
-### *Aim*
-To compute the area and the perimeter of a rectangle using its length and breadth.
+## 📖 Study of Operations on List (Instructions)
 
-### *Theory*
-•⁠  ⁠*Area* is the total space inside the rectangle: $$Area = Length \times Breadth$$
-•⁠  ⁠*Perimeter* is the total distance around the rectangle: $$Perimeter = 2 \times (Length + Breadth)$$
+* Understand what a list is and how it is created
+* Learn how to access list elements
+* Perform basic operations like adding and removing elements
+* Practice built-in list methods
+* Observe changes in the list after each operation
+* Practice programs regularly for better understanding
 
-### *Steps*
-1.⁠ ⁠Input the length ($l$) and breadth ($b$).
-2.⁠ ⁠Convert both values to integers.
-3.⁠ ⁠Calculate Area ($l * b$).
-4.⁠ ⁠Calculate Perimeter ($2 * (l + b)$).
-5.⁠ ⁠Output both results.
+---
 
-### *Conclusion*
-The program successfully implements multiple geometric calculations in a single script.
+## ✅ Advantages of List
 
+* Can store multiple data types
+* Dynamic in size (can grow or shrink)
+* Easy to access elements using index
+* Supports many built-in functions
+* Useful for handling large amounts of data
+
+---
+
+## ❌ Disadvantages of List
+
+* Uses more memory
+* Slower compared to arrays in some cases
+* Risk of errors if index is incorrect
+* Not suitable for fixed-size data
+
+---
+
+## 🔑 Key Concepts
+
+* Creating a list
+* Accessing elements
+* Updating elements
+* Deleting elements
+* List methods
+* Indexing and slicing
+
+---
+
+## 📘 Theory (Operations on List)
+
+### 1. Creating a List
+
+A list is created using square brackets [].
+Example: `my_list = [1, 2, 3, 4]`
+
+### 2. Accessing Elements
+
+Elements are accessed using index numbers.
+Example: `my_list[0]`
+
+### 3. Adding Elements
+
+* append() – adds element at the end
+* insert() – adds element at a specific position
+
+### 4. Removing Elements
+
+* remove() – removes a specific element
+* pop() – removes element using index
+* clear() – removes all elements
+
+### 5. Updating Elements
+
+List elements can be changed using index.
+Example: `my_list[1] = 10`
+
+### 6. Other Operations
+
+* len() – returns number of elements
+* sort() – sorts the list
+* reverse() – reverses the list
+* count() – counts occurrences
+
+---
+
+## 🛠 Tools Used
+
+* Python Interpreter
+* IDLE
+* VS Code
+* PyCharm
+* Command Prompt / Terminal
+
+---
+
+## 📂 Applications of List
+
+* Storing student records
+* Managing data collections
+* Data processing and analysis
+* Real-time applications
+* Game development
+
+---
+
+## 🎯 Conclusion
+
+Lists are an important and powerful data structure in Python. They allow easy storage and manipulation of data. Understanding list operations is essential for writing efficient and flexible Python programs.
+
+---
+
+## 📎 Extra Notes
+
+* List indexing starts from 0
+* Lists are mutable
+* Supports nested lists
+* Practice list methods regularly
+
+
+✨ *End of README*
