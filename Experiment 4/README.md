@@ -3,7 +3,7 @@ Nanme- Tanmay Agarwal <br/>
 PRN- 25070123158 <br/>
 Branch- EnTC A3 <br/>
 
-## RIM / Title Page
+## Title Page
 
 **Project Name:** Operations on Tuple in Python
 **Purpose:** Study of Tuple and Its Operations
