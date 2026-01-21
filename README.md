@@ -1,18 +1,18 @@
 # 📋 OPERATIONS ON LIST (Python)
-NAME- Tanmay Agarwal
-BRANCH- EnTC A3
-PRN- 25070123158
+NAME- Tanmay Agarwal <br/>
+BRANCH- EnTC A3 <br/>
+PRN- 25070123158 <br/>
 ## Title Page
 
-**Project Name:** Operations on List in Python
-**Purpose:** Study of List and Its Operations
-**Language:** Python
+**Project Name:** Operations on List in Python <br/>
+**Purpose:** Study of List and Its Operations <br/>
+**Language:** Python <br/>
 
 ---
 
 ## 🎯 Aim of the Study
 
-The aim of this project is to study the list data type in Python and understand various operations performed on lists. This helps in learning how to store, access, modify, and manage multiple values efficiently.
+The aim of this project is to study the list data type in Python and understand various operations performed on lists. <br/>This helps in learning how to store, access, modify, and manage multiple values efficiently.
 
 ---
 
@@ -24,12 +24,12 @@ A list is a built-in data type in Python used to store multiple items in a singl
 
 ## 📖 Study of Operations on List (Instructions)
 
-* Understand what a list is and how it is created
-* Learn how to access list elements
-* Perform basic operations like adding and removing elements
-* Practice built-in list methods
-* Observe changes in the list after each operation
-* Practice programs regularly for better understanding
+* Understand what a list is and how it is created <br/>
+* Learn how to access list elements <br/>
+* Perform basic operations like adding and removing elements <br/>
+* Practice built-in list methods <br/>
+* Observe changes in the list after each operation <br/>
+* Practice programs regularly for better understanding <br/>
 
 ---
 
