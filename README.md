@@ -8,7 +8,8 @@ This repository documents my **learning journey, experiments, and practice work*
 
 ## 👨‍🎓 Student Information
 
-- **Name:** Tanmay Agarwal  
+- **Name:** Tanmay Agarwal
+- **PRN:** 25070123158
 - **Institute:** Symbiosis Institute of Technology  
 - **Branch:** Electronics & Telecommunications Engineering (EnTC)  
 - **Division / Batch:** A–3  
