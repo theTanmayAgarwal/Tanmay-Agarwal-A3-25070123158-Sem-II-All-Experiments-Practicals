@@ -343,7 +343,3 @@ Understanding Pandas is essential for becoming proficient in **Data Science, Mac
 * Always check missing values before analysis  
 * loc is label-based, iloc is position-based  
 * head() and describe() are very useful during EDA  
-
----
-
-✨ *End of README*
