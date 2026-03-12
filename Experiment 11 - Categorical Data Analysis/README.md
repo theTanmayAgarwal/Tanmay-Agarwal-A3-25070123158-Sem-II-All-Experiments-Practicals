@@ -184,6 +184,7 @@ Used to analyze **academic performance and demographic distribution**.
   ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
   │ 8    │ normalize      │ value_counts(normalize=True) │ Returns proportions instead of counts    │
   └──────┴────────────────┴──────────────────────────────┴──────────────────────────────────────────┘
+
 ---
 
 ## 🛠 Tools Used
