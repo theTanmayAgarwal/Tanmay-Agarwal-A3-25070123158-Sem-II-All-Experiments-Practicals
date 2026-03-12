@@ -163,29 +163,19 @@ Student dataset containing:
 Used to analyze **academic performance and demographic distribution**.
 
 ---
-## Function Reference Table
+# 7. Function Reference Table
 
-  ┌──────┬────────────────┬──────────────────────────────┬──────────────────────────────────────────┐
-  │ S.No │    Function    │            Syntax            │                 Purpose                  │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 1    │ DataFrame()    │ pd.DataFrame(data)           │ Creates DataFrame from dictionary/list   │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 2    │ value_counts() │ df['col'].value_counts()     │ Returns frequency count of unique values │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 3    │ nunique()      │ df['col'].nunique()          │ Returns number of unique values          │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 4    │ crosstab()     │ pd.crosstab(col1, col2)      │ Creates contingency table                │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 5    │ groupby()      │ df.groupby('col')            │ Groups data by specified column          │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 6    │ sort_values()  │ df.sort_values(by='col')     │ Sorts DataFrame by column                │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 7    │ read_csv()     │ pd.read_csv('filepath')      │ Reads CSV file into DataFrame            │
-  ├──────┼────────────────┼──────────────────────────────┼──────────────────────────────────────────┤
-  │ 8    │ normalize      │ value_counts(normalize=True) │ Returns proportions instead of counts    │
-  └──────┴────────────────┴──────────────────────────────┴──────────────────────────────────────────┘
-
----
+| S.No | Function | Syntax | Purpose |
+|------|----------|--------|---------|
+| 1 | `DataFrame()` | `pd.DataFrame(data)` | Creates DataFrame from dictionary/list |
+| 2 | `value_counts()` | `df['col'].value_counts()` | Returns frequency count of unique values |
+| 3 | `nunique()` | `df['col'].nunique()` | Returns number of unique values |
+| 4 | `crosstab()` | `pd.crosstab(col1, col2)` | Creates contingency table |
+| 5 | `groupby()` | `df.groupby('col')` | Groups data by specified column |
+| 6 | `sort_values()` | `df.sort_values(by='col')` | Sorts DataFrame by column |
+| 7 | `read_csv()` | `pd.read_csv('filepath')` | Reads CSV file into DataFrame |
+| 8 | `normalize` | `value_counts(normalize=True)` | Returns proportions instead of counts |
+  ---
 
 ## 🛠 Tools Used
 
