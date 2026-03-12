@@ -42,16 +42,17 @@ Python provides powerful tools for analyzing categorical data using the **Pandas
 
 ---
 
-## 🔑 Key Concepts
+### 🔑 Key Concepts
 
-* Categorical Variables
-* Frequency Count
-* Unique Values
-* Cross Tabulation
-* Percentage Distribution
-* Filtering Data
-* Grouping Data
-* Sorting Data
+  | Function | Description |
+  |----------|-------------|
+  | `DataFrame()` | Creates a 2D labeled data structure with columns of potentially different types |
+  | `value_counts()` | Returns a Series containing counts of unique values |
+  | `nunique()` | Returns the number of unique values in a column |
+  | `crosstab()` | Computes a cross-tabulation of two or more factors |
+  | `groupby()` | Groups data based on specified criteria |
+  | `sort_values()` | Sorts DataFrame by specified column(s) |
+  | `read_csv()` | Reads a comma-separated values file into DataFrame |
 
 ---
 
