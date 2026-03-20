@@ -52,6 +52,24 @@ Python provides powerful tools like **Pandas and NumPy** to preprocess and clean
 * Data Consistency
 
 ---
+## Operations Performed:
+
+| Operation | Function | Description |
+|-----------|----------|-------------|
+| Display DataFrame | `print(df1)` | Shows original data with NaN values |
+| Detect NaN values | `df1.isna()` | Returns boolean mask of missing values |
+| Count NaN per column | `df1.isna().sum()` | Counts missing values in each column |
+| Drop rows with NaN | `df1.dropna()` | Removes rows containing any NaN values |
+| Fill with default | `df1.fillna(value='DEFAULT')` | Replaces NaN with 'DEFAULT' string |
+| Fill with mean | `df1.fillna(df1.mean())` | Replaces NaN with column mean values |
+
+## Observations:
+
+- `isna()` returns a boolean DataFrame where `True` indicates missing values
+- `dropna()` removes entire rows even if only one value is missing
+- Mean imputation works only on numeric columns
+
+---
 
 ## 📘 Theory (Handling Missing Values)
 
