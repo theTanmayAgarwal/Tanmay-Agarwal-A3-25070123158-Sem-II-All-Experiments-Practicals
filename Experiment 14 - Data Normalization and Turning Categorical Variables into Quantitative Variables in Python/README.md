@@ -454,5 +454,3 @@ Through this experiment, it is evident that the choice of normalization techniqu
 > | Tree-based models (Decision Tree, RF) | Normalization not required |
 
 ---
-
-*README generated for academic and GitHub documentation purposes — Experiment 14, EnTC A3 Batch.*
