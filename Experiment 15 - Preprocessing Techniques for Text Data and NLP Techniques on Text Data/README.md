@@ -627,5 +627,3 @@ Ready for Model Input ✅
 ```
 
 ---
-
-*README generated for academic and GitHub documentation purposes — Experiment 15, EnTC A3 Batch.*
