@@ -192,7 +192,7 @@ fig.show()
 - File system visualization
 
 **Output:**
-![Treemap](./charts_exp18/01_treemap.png)
+![Treemap](./charts/01_treemap.png)
 
 ---
 
@@ -216,7 +216,7 @@ plt.show()
 - Distance representation
 
 **Output:**
-![Dendrogram](./charts_exp18/02_dendrogram.png)
+![Dendrogram](./charts/02_dendrogram.png)
 
 ---
 
@@ -241,7 +241,7 @@ plt.show()
 - Intersection analysis
 
 **Output:**
-![Venn Diagram](./charts_exp18/03_venn_diagram.png)
+![Venn Diagram](./charts/03_venn_diagram.png)
 
 ---
 
@@ -267,7 +267,7 @@ fig.show()
 - Resource allocation
 
 **Output:**
-![Sankey Diagram](./charts_exp18/04_sankey_diagram.png)
+![Sankey Diagram](./charts/04_sankey_diagram.png)
 
 ---
 
@@ -290,7 +290,7 @@ fig.show()
 - Scientific data
 
 **Output:**
-![3D Scatter Plot](./charts_exp18/05_3d_scatter.png)
+![3D Scatter Plot](./charts/05_3d_scatter.png)
 
 ---
 
@@ -318,7 +318,7 @@ fig.show()
 - Competency analysis
 
 **Output:**
-![Radar Chart](./charts_exp18/06_radar_chart.png)
+![Radar Chart](./charts/06_radar_chart.png)
 
 ---
 
@@ -343,7 +343,7 @@ fig.show()
 - Budget breakdown by category
 
 **Output:**
-![Sunburst Chart](./charts_exp18/07_sunburst_chart.png)
+![Sunburst Chart](./charts/07_sunburst_chart.png)
 
 ---
 
@@ -366,7 +366,7 @@ fig.show()
 - Outlier detection
 
 **Output:**
-![Parallel Coordinates](./charts_exp18/08_parallel_coordinates.png)
+![Parallel Coordinates](./charts/08_parallel_coordinates.png)
 
 ---
 
@@ -389,7 +389,7 @@ fig.show()
 - Dynamic dashboards
 
 **Output:**
-![Animated Scatter](./charts_exp18/09_animated_scatter.png)
+![Animated Scatter](./charts/09_animated_scatter.png)
 
 ---
 
@@ -415,7 +415,7 @@ fig.show()
 - Status indicators
 
 **Output:**
-![Gauge Charts](./charts_exp18/10_gauge_charts.png)
+![Gauge Charts](./charts/10_gauge_charts.png)
 
 ---
 
@@ -438,7 +438,7 @@ fig.show()
 - Customer journey
 
 **Output:**
-![Funnel Chart](./charts_exp18/11_funnel_chart.png)
+![Funnel Chart](./charts/11_funnel_chart.png)
 
 ---
 
@@ -461,7 +461,7 @@ fig.show()
 - Cumulative effects
 
 **Output:**
-![Waterfall Chart](./charts_exp18/12_waterfall_chart.png)
+![Waterfall Chart](./charts/12_waterfall_chart.png)
 
 ---
 
@@ -485,7 +485,7 @@ nx.draw_networkx(G)
 - Infrastructure diagrams
 
 **Output:**
-![Network Graph](./charts_exp18/13_network_graph.png)
+![Network Graph](./charts/13_network_graph.png)
 
 ---
 
@@ -508,7 +508,7 @@ fig.show()
 - Election results
 
 **Output:**
-![Choropleth Map](./charts_exp18/14_choropleth_map.png)
+![Choropleth Map](./charts/14_choropleth_map.png)
 
 ---
 
@@ -531,7 +531,7 @@ fig.show()
 - Spatial patterns
 
 **Output:**
-![Density Contour](./charts_exp18/15_density_contour.png)
+![Density Contour](./charts/15_density_contour.png)
 
 ---
 
@@ -554,7 +554,7 @@ fig.show()
 - Circular periodic data
 
 **Output:**
-![Polar Scatter](./charts_exp18/16_polar_scatter.png)
+![Polar Scatter](./charts/16_polar_scatter.png)
 
 ---
 
@@ -578,7 +578,7 @@ fig.show()
 - Optimization surfaces
 
 **Output:**
-![3D Surface Plot](./charts_exp18/17_3d_surface.png)
+![3D Surface Plot](./charts/17_3d_surface.png)
 
 ---
 
@@ -600,7 +600,7 @@ for entity in entities:
 - Competitive analysis
 
 **Output:**
-![Multiple Radar Charts](./charts_exp18/18_multiple_radar.png)
+![Multiple Radar Charts](./charts/18_multiple_radar.png)
 
 ---
 
@@ -624,7 +624,7 @@ plt.axvline(x=target, color='red', linestyle='--')
 - Executive summaries
 
 **Output:**
-![Bullet Charts](./charts_exp18/19_bullet_charts.png)
+![Bullet Charts](./charts/19_bullet_charts.png)
 
 ---
 
