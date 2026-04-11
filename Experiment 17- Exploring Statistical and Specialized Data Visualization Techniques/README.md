@@ -515,49 +515,103 @@ STEP 8: Display Visualizations
 
 ## 📊 Charts / Output Section
 
-### 1. Area Plot
-![Area Plot](./outputs/area_plot.png)
+### 📈 Dataset 1: Category Sales Data
+
+#### 1. Area Plot
+![Area Plot](./charts/01_area_plot.png)
 *Area plot showing values across categories with gradient fill*
 
-### 2. Pie Chart
-![Pie Chart](./outputs/pie_chart.png)
+#### 2. Sales and Profit Area Plot
+![Sales and Profit Area Plot](./charts/02_area_plot_sales_profit.png)
+*Comparative area plot showing Sales and Profit across categories*
+
+#### 3. Pie Chart
+![Pie Chart](./charts/03_pie_chart.png)
 *Pie chart showing proportional distribution of categories*
 
-### 3. Donut Chart
-![Donut Chart](./outputs/donut_chart.png)
+#### 4. Donut Chart
+![Donut Chart](./charts/04_donut_chart.png)
 *Donut chart - pie chart with center hollow for enhanced visualization*
 
-### 4. Box Plot (Outlier Detection)
-![Box Plot](./outputs/box_plot.png)
+#### 5. Box Plot (Outlier Detection)
+![Box Plot](./charts/05_boxplot.png)
 *Box plot showing distribution summary with outlier identification*
 
-### 5. Correlation Heatmap
-![Heatmap](./outputs/heatmap.png)
+#### 6. Correlation Heatmap
+![Heatmap](./charts/06_heatmap.png)
 *Heatmap displaying correlation matrix between numeric variables*
 
-### 6. Bubble Plot
-![Bubble Plot](./outputs/bubble_plot.png)
+#### 7. Bubble Plot (Matplotlib)
+![Bubble Plot](./charts/07_bubble_plot.png)
 *Scatter plot with bubble size representing a third variable*
 
-### 7. Histogram (Credit Score Distribution)
-![Histogram](./outputs/histogram.png)
-*Histogram showing frequency distribution of credit scores*
+#### 8. Bubble Plot (Seaborn)
+![Seaborn Bubble Plot](./charts/08_bubble_plot_seaborn.png)
+*Enhanced bubble plot using Seaborn with hue and size mapping*
 
-### 8. Pair Plot
-![Pair Plot](./outputs/pair_plot.png)
-*Pair plot showing pairwise relationships between all numeric variables*
+---
 
-### 9. Violin Plot
-![Violin Plot](./outputs/violin_plot.png)
-*Violin plot combining box plot with kernel density estimation*
+### 📊 Dataset 2: Loan Application Data
 
-### 10. KDE Plot
-![KDE Plot](./outputs/kde_plot.png)
-*Kernel Density Estimation plot showing smooth probability density*
+#### 9. Loan Amount Boxplot
+![Loan Boxplot](./charts/09_loan_boxplot.png)
+*Box plot showing loan amount distribution with outlier detection*
 
-### 11. Subplots Dashboard
-![Subplots](./outputs/subplots.png)
-*Multi-panel visualization combining different plot types*
+#### 10. Credit Score Histogram
+![Histogram](./charts/10_histogram.png)
+*Histogram showing frequency distribution of credit scores with mean line*
+
+#### 11. Income vs Loan Amount Bubble Plot
+![Income vs Loan Bubble](./charts/11_income_loan_bubble.png)
+*Bubble plot showing relationship between Income and Loan Amount with Credit Score as bubble color*
+
+#### 12. Correlation Matrix Heatmap
+![Correlation Heatmap](./charts/12_correlation_heatmap.png)
+*Correlation matrix showing relationships between Age, Income, Loan Amount, and Credit Score*
+
+---
+
+### 📈 Advanced Visualizations (Self Learning)
+
+#### 13. Pair Plot
+![Pair Plot](./charts/13_pair_plot.png)
+*Pair plot showing pairwise relationships between all numeric variables with Loan Status coloring*
+
+#### 14. Violin Plot
+![Violin Plot](./charts/14_violin_plot.png)
+*Violin plots comparing Credit Score and Income distributions by Loan Status*
+
+#### 15. Joint Plot
+![Joint Plot](./charts/15_joint_plot.png)
+*Joint distribution plot showing Income vs Loan Amount with marginal distributions and regression line*
+
+#### 16. Subplots Dashboard
+![Subplots Dashboard](./charts/16_subplots_dashboard.png)
+*Multi-panel dashboard combining KDE plot, Histogram, Box plot, and Scatter plot*
+
+#### 17. Count Plot
+![Count Plot](./charts/17_count_plot.png)
+*Count plots showing Loan Status distribution by Age Group and Credit Category*
+
+#### 18. Stacked Bar Chart
+![Stacked Bar Chart](./charts/18_stacked_bar.png)
+*Stacked bar chart showing Loan Status distribution across Age Groups*
+
+#### 19. KDE Plot
+![KDE Plot](./charts/19_kde_plot.png)
+*Kernel Density Estimation plots comparing distributions by Loan Status and Age Group*
+
+#### 20. Swarm Plot
+![Swarm Plot](./charts/20_swarm_plot.png)
+*Swarm plot showing individual Credit Score points by Loan Status with Age Group coloring*
+
+#### 21. GroupBy Analysis
+![GroupBy Analysis](./charts/21_groupby_analysis.png)
+*Bar chart comparing average statistics between Approved and Rejected loans*
+
+#### 22. Summary Statistics Table
+![Summary Table](./charts/22_summary_table.png)
+*Comprehensive summary statistics table for the Loan Application dataset*
 
 ---
 
@@ -691,6 +745,9 @@ sns.swarmplot(x='category', y='values', data=df)
 - Small to medium datasets
 - Understanding distribution and individual values
 
+**Output:**
+![Swarm Plot](./charts/20_swarm_plot.png)
+
 ---
 
 ### 🔹 Strip Plot
@@ -722,6 +779,9 @@ sns.jointplot(x='var1', y='var2', data=df, kind='reg')
 - Analyzing relationship between two variables
 - Understanding marginal distributions
 - Fitting regression lines
+
+**Output:**
+![Joint Plot](./charts/15_joint_plot.png)
 
 ---
 
@@ -756,6 +816,9 @@ sns.countplot(x='category', hue='group', data=df)
 - Comparing group sizes
 - Quick overview of data balance
 
+**Output:**
+![Count Plot](./charts/17_count_plot.png)
+
 ---
 
 ### 🔹 Stacked Bar Chart
@@ -771,6 +834,9 @@ df.groupby(['cat1', 'cat2']).size().unstack().plot(kind='bar', stacked=True)
 - Showing part-to-whole relationships
 - Comparing compositions across groups
 - Visualizing survey responses
+
+**Output:**
+![Stacked Bar Chart](./charts/18_stacked_bar.png)
 
 ---
 
@@ -790,6 +856,9 @@ df.groupby('category').agg({
 - Summary statistics by group
 - Data transformation
 - Feature engineering
+
+**Output:**
+![GroupBy Analysis](./charts/21_groupby_analysis.png)
 
 ---
 
